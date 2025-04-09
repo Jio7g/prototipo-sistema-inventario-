@@ -16,8 +16,6 @@ const ReportOptions = ({ onGenerateReport }) => {
     'Productos Bajo Stock',
     'Movimientos por Período',
     'Valoración de Inventario',
-    'Productos Sin Movimiento',
-    'Análisis de Proveedores'
   ];
 
   // Opciones de formato
