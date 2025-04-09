@@ -32,16 +32,6 @@ const ReportList = ({ reports, onSelectReport, activeReport }) => {
       name: 'Valoración de Inventario',
       description: 'Valor del inventario actual a costo y precio de venta'
     },
-    {
-      id: 'noMovement',
-      name: 'Productos Sin Movimiento',
-      description: 'Productos sin movimiento en un período específico'
-    },
-    {
-      id: 'suppliers',
-      name: 'Análisis de Proveedores',
-      description: 'Análisis de compras por proveedor'
-    }
   ];
 
   const reportList = reports || defaultReports;
