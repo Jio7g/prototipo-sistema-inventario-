@@ -58,13 +58,13 @@ const Inventory = () => {
           >
             Salida de Stock
           </Button>
-          <Button 
+          {/* <Button 
             variant="warning"
             icon={<Settings size={18} />}
             onClick={() => setShowAdjustmentModal(true)}
           >
             Ajuste
-          </Button>
+          </Button> */}
         </div>
       </div>
 
