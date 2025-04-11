@@ -57,7 +57,7 @@ const StockStatus = () => {
       header: 'Valor Total',
       accessor: 'value',
       render: (row) => (
-        <span className="text-sm text-gray-500">${row.value.toFixed(2)}</span>
+        <span className="text-sm text-gray-500">Q{row.value.toFixed(2)}</span>
       )
     }
   ];
@@ -75,7 +75,7 @@ const StockStatus = () => {
         <div className="grid grid-cols-3 gap-4">
           <div className="text-sm font-bold text-gray-900">Total</div>
           <div className="text-sm font-bold text-gray-900">{totalQuantity} unidades</div>
-          <div className="text-sm font-bold text-gray-900">${totalValue.toFixed(2)}</div>
+          <div className="text-sm font-bold text-gray-900">Q{totalValue.toFixed(2)}</div>
         </div>
       </div>
     </Card>

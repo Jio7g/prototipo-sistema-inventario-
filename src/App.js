@@ -3,6 +3,7 @@ import InventorySystemPrototype from './components/InventorySystemPrototype';
 import Login from './components/auth/Login';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 import { AuthProvider } from './context/AuthContext';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <InventorySystemPrototype />
         </ProtectedRoute>
       </AuthProvider>
+      <SpeedInsights />
     </div>
   );
 }

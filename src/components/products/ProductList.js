@@ -84,7 +84,7 @@ const ProductList = ({ products, onEdit, onDelete }) => {
       header: 'Precio',
       accessor: 'price',
       render: (row) => (
-        <span className="text-sm text-gray-500">${row.price.toFixed(2)}</span>
+        <span className="text-sm text-gray-500">Q{row.price.toFixed(2)}</span>
       )
     },
     {

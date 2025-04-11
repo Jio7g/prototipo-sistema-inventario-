@@ -50,7 +50,7 @@ const Dashboard = () => {
         
         <StatusCard 
           title="Valor Total de Inventario" 
-          value="$42,680.75" 
+          value="Q42,680.75" 
           subtitle="↑ 8% vs. mes anterior" 
           icon={BarChart3} 
           iconColor="green" 
