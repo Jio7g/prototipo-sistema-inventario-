@@ -22,7 +22,7 @@ const TopBar = ({ activeView }) => {
     dashboard: 'Dashboard',
     products: 'Gestión de Productos',
     inventory: 'Control de Inventario',
-    reports: 'Reportes y Análisis',
+    reports: 'Reportes',
     admin: 'Administración del Sistema'
   };
 

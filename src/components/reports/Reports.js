@@ -62,7 +62,7 @@ const Reports = () => {
     <div className="p-6">
       <div className="flex justify-between items-center mb-6">
         <div>
-          <h2 className="text-2xl font-bold">Reportes y Análisis</h2>
+          <h2 className="text-2xl font-bold">Reportes de Inventario</h2>
           <p className="text-gray-500">Analiza el desempeño de tu inventario</p>
         </div>
       </div>
